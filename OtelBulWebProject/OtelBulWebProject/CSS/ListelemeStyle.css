@@ -1,0 +1,86 @@
+﻿.kutu {
+    width: 30%;
+    float: left;
+    margin: 20px 10px 5px;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+}
+
+    .kutu:hover {
+        /*        box-shadow: 5px 5px 5px #ffd5e2;*/
+        box-shadow: 5px 5px 20px #d196be;
+        border: #751A57 solid 1px;
+    }
+
+.fotograf img {
+    border-radius: 5px;
+    margin: 2px;
+    width: 99%;
+}
+
+.baslik {
+    font-family: source_sans_proregular;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.icerikAciklama {
+    padding: 8px;
+}
+
+.kisaAciklama {
+    color: #666;
+    font-family: source_sans_proregular;
+    font-size: 18px;
+    float: left;
+}
+
+.puanBilg {
+    float: right;
+    color: #666;
+    font-family: source_sans_proregular;
+    font-size: 13px;
+}
+
+.Ozet {
+    color: #666;
+    padding: 10px;
+    font-family: source_sans_proregular;
+    font-size: 18px;
+    clear: both;
+    height: 82px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.yildiz {
+    float: right;
+    margin-right: 4px;
+}
+
+.pagerTasiyici {
+    clear: both;
+    padding: 15px;
+    text-align: center;
+}
+
+.numarabuton {
+    padding: 5px 8px;
+    background-color: #FA841A;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.secilibuton {
+    padding: 5px 8px;
+    background-color: #751A57;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}

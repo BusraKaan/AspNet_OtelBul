@@ -1,0 +1,63 @@
+﻿
+.GirisForm {
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid silver;
+    padding: 15px;
+}
+
+.form {
+    float: left;
+    width: 280px;
+    padding: 10px;
+}
+
+.fotograf {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .fotograf img {
+        margin: 2px;
+        width: 273px;
+    }
+
+.MetinKutu {
+    padding: 7px;
+    margin: 7px 0px;
+    width: 262px;
+    border: 1px solid #994EFF;
+    border-radius: 5px;
+}
+
+.fixed {
+    clear: both;
+}
+
+.GirisButon {
+    padding: 7px 0px;
+    display: block;
+    background-color: #FFEDFF;
+    border: 1px solid #994EFF;
+    border-radius: 5px;
+    color: #8A4DFE;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+}
+.basarisizPanel {
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    background-color: #ffd6d6;
+    color: red;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.basariliPanel {
+    border: 1px solid #0b8223;
+    border-radius: 10px;
+    background-color: #c6e4cf;
+    color: #0b8223;
+    padding: 15px;
+    margin-bottom: 15px;
+}

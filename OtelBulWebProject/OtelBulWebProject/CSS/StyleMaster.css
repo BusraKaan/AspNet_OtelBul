@@ -1,0 +1,416 @@
+﻿.sagMenu {
+    float: right;
+    width: 180px;
+    padding: 10px;
+}
+
+    .sagMenu h3 {
+        text-align: center;
+    }
+
+.sagMenuDropDown {
+    padding: 5px;
+    margin: 5px 0px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 100%;
+    font-family: source_sans_proregular;
+    font-size: 15px;
+}
+
+.yorumPanel {
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 30px;
+}
+.yorumMetinKutu {
+    margin: 3px;
+    padding: 3px;
+    width: 900px;
+}
+.yorumTasiyici {
+    padding: 20px;
+    margin-top: 4px;
+    border-bottom: 1px solid silver;
+    font-family: source_sans_proregular;
+    font-size: 20px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.YorumIcerik{
+    
+    padding:4px;
+    margin:3px;
+}
+.YorumUye{
+    float:right;
+    color:gray;
+    margin-bottom:5px;
+}
+.basarisizPanel {
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    background-color: #ffd6d6;
+    color: red;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.basariliPanel {
+    border: 1px solid #0b8223;
+    border-radius: 10px;
+    background-color: #c6e4cf;
+    color: #0b8223;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.sagMenuListView {
+    height: 300px;
+}
+
+
+.icerikTasiyici {
+    float: left;
+    margin: 0px;
+    width: 980px;
+    padding: 10px;
+}
+
+    .icerikTasiyici::after label {
+        margin: 5px;
+    }
+
+.BüyükBaslik {
+    text-align: center;
+    font-size: 18px;
+    color: midnightblue;
+}
+
+.KucukBaslik {
+    text-align: center;
+}
+
+.PuanBilg {
+    float: left;
+    font-family: source_sans_proregular;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.ikon {
+    font-family: source_sans_proregular;
+    padding: 5px;
+    font-size: 16px;
+    color: steelblue;
+    float: left;
+}
+
+.Hizmetler {
+    padding: 3px;
+}
+
+    .Hizmetler ul {
+        /*list-style-type: circle;*/
+        list-style-image: url(../images/draw-check-mark.png);
+        list-style-position: inside;
+        font-family: source_sans_proregular;
+        font-size: 16px;
+        color: black;
+    }
+
+.Kategori {
+    padding: 3px;
+}
+
+    .Kategori ul {
+        /*list-style-type: circle;*/
+        list-style-image: url(../images/right-arrow.png);
+        list-style-position: inside;
+        font-family: source_sans_proregular;
+        font-size: 16px;
+        color: black;
+    }
+
+.aciklama {
+    color: black;
+    font-family: source_sans_proregular;
+    font-size: 18px;
+    float: left;
+    padding: 8px;
+    text-align: center;
+}
+
+.fixed {
+    clear: both;
+}
+/*Container*/
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.MetinKutu {
+    padding: 7px;
+    margin: 7px 0px;
+    width: 946px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.buton {
+    margin: 5px;
+    padding: 15px 40px;
+    color: white;
+    background-color: #FA841A;
+    font-weight: 900;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.satir {
+    padding: 8px;
+}
+
+.MenuButton: hover {
+    background: #291c1b;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.header {
+    background: url(../images/head_bg.jpg);
+    display: block;
+}
+
+.header-bottom {
+    background: url(../images/head_bot.gif);
+}
+
+.wrap {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 20px 0;
+    float: left;
+    max-width: 70px;
+}
+
+    .logo h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+.fotografDetail img {
+    border-radius: 5px;
+    padding: 15px 100px;
+    margin: 2px;
+    width: 776px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.con-right {
+    float: right;
+    margin-top: 40px;
+}
+
+.grid1-l-img {
+    float: left;
+    margin-top: 25px;
+}
+
+#nav, #nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    border-radius: 5px 5px 5px 5px;
+    z-index: 9999;
+    display: table;
+    padding: 10px;
+    position: relative;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    #nav ul {
+        background: url(../images/head_bot.gif);
+        border: 1px solid #291c1b;
+        border-radius: 0 5px 5px 5px;
+        border-width: 0 1px 1px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+        left: -9999px;
+        overflow: hidden;
+        padding: 20px 0 10px;
+        position: absolute;
+        top: -9999px;
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -moz-transition: -moz-transform 0.1s linear;
+        -ms-transition: -ms-transform 0.1s linear;
+        -o-transition: -o-transform 0.1s linear;
+        -webkit-transition: -webkit-transform 0.1s linear;
+        transition: transform 0.1s linear;
+    }
+
+    #nav li {
+        float: left;
+        position: relative;
+    }
+
+        #nav li a {
+            color: #FFFFFF;
+            display: block;
+            font-size: 16px;
+            padding: 7px 54px;
+            text-decoration: none;
+        }
+
+        #nav li:hover > a {
+            background: #291c1b;
+            border-radius: 5px 5px 5px 5px;
+            color: #FFFFFF;
+        }
+
+            #nav li:hover > a.hsubs {
+                border-radius: 5px 5px 0 0;
+            }
+
+        #nav li:hover ul.subs {
+            left: 0;
+            top: 36px;
+            width: 250px;
+            -moz-transform: scaleY(1);
+            -ms-transform: scaleY(1);
+            -o-transform: scaleY(1);
+            -webkit-transform: scaleY(1);
+        }
+
+    #nav ul li {
+        width: 100%;
+    }
+
+        #nav ul li:hover > a {
+            background: #291c1b !important;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+start editing from here
+a {
+    text-decoration: none;
+}
+
+.txt-rt {
+    text-align: right;
+}
+
+text align right
+.txt-lt {
+    text-align: left;
+}
+
+text align left
+.txt-center {
+    text-align: center;
+}
+
+text align center
+.float-rt {
+    float: right;
+}
+
+float right
+.float-lt {
+    float: left;
+}
+
+float left
+.clear {
+    clear: both;
+}
+
+clear float
+.pos-relative {
+    position: relative;
+}
+
+Position Relative
+.pos-absolute {
+    position: absolute;
+}
+
+Position Absolute
+.vertical-base {
+    vertical-align: baseline;
+}
+
+vertical align baseline
+.vertical-top {
+    vertical-align: top;
+}
+
+vertical menu
+nav.horizontal ul li {
+    display: inline-block;
+}
+
+horizontal menu
+img {
+    max-width: 100%;
+    ]
+}

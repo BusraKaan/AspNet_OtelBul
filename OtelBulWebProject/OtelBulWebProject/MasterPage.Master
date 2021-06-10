@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="OtelBulWebProject.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <link href="CSS/StyleMaster.css" rel="stylesheet" />
+    <script src="ckeditor/ckeditor.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="anatasiyici">
+
+            <div class="header">
+                <div class="wrap">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="../images/sign2.png" alt="" /></a>
+                    </div>
+                    <div class="con-right">
+                        <div class="grid1-l-img">
+                            <img src="../images/thinking.png" alt="">
+                        </div>
+                        <div class="grid1-l-desc">
+                            <p>
+                                <asp:Literal runat="server" ID="ltrl_uye"></asp:Literal>
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="fixed"></div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="wrap">
+                    <ul id="nav">
+                        <li><a href="OtelListele.aspx">Anasayfa</a></li>
+
+                        <li id="li_girisYok" runat="server">
+                                <a class="MenuButton" href="UyeGiris.aspx">Giriş Yap</a>
+                        </li>
+                        <li id="li_girisYok2" runat="server">
+                                <a class="MenuButton" href="UyeOl.aspx">Üye Ol</a>
+                        </li>
+                        <li id="li_girisVar" runat="server">
+                                <asp:LinkButton runat="server" ID="lbtn_cikisYap" CssClass="MenuButton" OnClick="lbtn_cikisYap_Click">Çıkış Yap</asp:LinkButton>
+                        </li>
+                        <li id="li_girisVar2" runat="server">
+                            <a class="MenuButton" href="OtelEkle.aspx">Otel Ekle</a>
+                        </li>
+                        <li id="li_otelVar" runat="server">
+                            <asp:LinkButton runat="server" ID="lbtn_guncelle" CssClass="MenuButton" OnClick="lbtn_guncelle_Click">Otel Güncelle</asp:LinkButton>
+                            <%--<a class="MenuButton" href="OtelGuncelle.aspx?Oid=<%# Eval("OtelID") %>">Otel Güncelle</a>--%>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
